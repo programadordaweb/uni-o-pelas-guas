@@ -46,7 +46,7 @@ const About = () => {
           
           <p className="text-lg text-muted-foreground mb-6 leading-relaxed animate-fade-in">
             Somos uma cooperativa criada dentro do{" "}
-            <span className="font-semibold text-primary">Programa A União Faz a Vida</span>, 
+            <span className="font-semibold text-primary">Cooperlândia</span>, 
             uma iniciativa do <span className="font-semibold text-secondary">Sicredi</span>.
           </p>
         </div>
@@ -92,11 +92,11 @@ const About = () => {
           </div>
         </div>
 
-        {/* Programa União Faz a Vida */}
+        {/* Cooperlândia */}
         <Card className="max-w-4xl mx-auto mt-16 p-8 bg-gradient-to-br from-primary/5 to-secondary/5 border-primary/20 shadow-medium animate-scale-in">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-primary mb-4">
-              Programa A União Faz a Vida
+              Cooperlândia
             </h3>
             <p className="text-lg text-foreground leading-relaxed">
               Através deste programa educacional do Sicredi, aprendemos na prática 
