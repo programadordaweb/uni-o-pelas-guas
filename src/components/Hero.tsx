@@ -17,7 +17,7 @@ const Hero = () => {
             <img 
               src={logo} 
               alt="Cooperativa Escolar União pelas Águas" 
-              className="mx-auto h-40 md:h-52 w-auto drop-shadow-large"
+              className="mx-auto h-40 md:h-52 w-40 md:w-52 rounded-full object-cover drop-shadow-large shadow-large"
             />
           </div>
 

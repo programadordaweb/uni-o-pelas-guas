@@ -17,29 +17,29 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 100% 20%;
 
-    /* Primary: Deep blue from logo */
-    --primary: 228 80% 40%;
+    /* Primary: Deep navy blue from palette */
+    --primary: 230 70% 35%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary: Teal/cyan from palette */
-    --secondary: 186 70% 45%;
+    /* Secondary: Bright cyan from palette */
+    --secondary: 190 85% 50%;
     --secondary-foreground: 0 0% 100%;
 
-    /* Muted: Light blue-gray */
-    --muted: 200 40% 96%;
-    --muted-foreground: 220 20% 45%;
+    /* Muted: Light blue */
+    --muted: 195 60% 90%;
+    --muted-foreground: 215 25% 40%;
 
-    /* Accent: Orange from logo */
-    --accent: 30 90% 55%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent: Orange from palette */
+    --accent: 30 95% 60%;
+    --accent-foreground: 230 70% 35%;
 
-    /* Success: Green from palette */
-    --success: 165 65% 45%;
+    /* Success: Teal green from palette */
+    --success: 175 70% 45%;
     --success-foreground: 0 0% 100%;
 
     /* Warning: Yellow-green from palette */
-    --warning: 70 60% 50%;
-    --warning-foreground: 220 100% 20%;
+    --warning: 75 65% 55%;
+    --warning-foreground: 230 70% 35%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -50,10 +50,10 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom gradient tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(228 80% 40%), hsl(186 70% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(228 80% 45%), hsl(186 70% 50%));
-    --gradient-accent: linear-gradient(135deg, hsl(30 90% 55%), hsl(70 60% 50%));
+    /* Custom gradient tokens - mixing all palette colors */
+    --gradient-primary: linear-gradient(135deg, hsl(230 70% 35%), hsl(190 85% 50%), hsl(175 70% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(190 85% 50%), hsl(195 70% 60%), hsl(175 70% 45%));
+    --gradient-accent: linear-gradient(135deg, hsl(30 95% 60%), hsl(75 65% 55%));
     
     /* Shadows */
     --shadow-soft: 0 2px 8px -2px hsl(228 80% 40% / 0.1);

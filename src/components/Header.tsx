@@ -26,7 +26,7 @@ const Header = () => {
             <img 
               src={logo} 
               alt="União pelas Águas" 
-              className="h-14 w-auto transition-transform duration-300 group-hover:scale-110"
+              className="h-14 w-14 rounded-full object-cover transition-transform duration-300 group-hover:scale-110 shadow-medium"
             />
             <div className="hidden md:flex flex-col">
               <span className="text-lg font-bold text-primary leading-tight">
