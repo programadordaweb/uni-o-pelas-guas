@@ -43,22 +43,14 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* Botões de ação */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
+          {/* Botão de ação */}
+          <div className="flex justify-center animate-fade-in">
             <Button 
               size="lg" 
               className="text-lg px-8 py-6 bg-accent hover:bg-accent/90 text-accent-foreground shadow-medium hover:shadow-large transition-all duration-300"
               asChild
             >
               <a href="#about">Conheça Nossa História</a>
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="text-lg px-8 py-6 border-2 border-white text-white hover:bg-white hover:text-primary shadow-medium hover:shadow-large transition-all duration-300"
-              asChild
-            >
-              <a href="#store">Visite Nossa Loja</a>
             </Button>
           </div>
 
