@@ -11,7 +11,7 @@ const Board = () => {
     },
     {
       position: "Vice-presidente",
-      name: "Bruna Camila Bert",
+      name: "Bruna Camila Berlt",
       icon: Shield,
       color: "text-primary"
     },

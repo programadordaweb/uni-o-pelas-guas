@@ -11,7 +11,6 @@ const Header = () => {
     { label: "Início", href: "#home" },
     { label: "Quem Somos", href: "#about" },
     { label: "Diretoria", href: "#board" },
-    { label: "Loja", href: "#store" },
     { label: "Ações", href: "#actions" },
     { label: "Transparência", href: "#transparency" },
     { label: "Contato", href: "#contact" },

@@ -1,37 +1,42 @@
 import { Card } from "@/components/ui/card";
-import { Heart, Users, Sparkles, BookOpen, Scale, Handshake } from "lucide-react";
+import { Heart, Users, Sparkles, BookOpen, Scale, Handshake, UserPlus } from "lucide-react";
 
 const About = () => {
   const principles = [
     {
-      icon: Handshake,
-      title: "Ajuda Mútua",
-      description: "Trabalhamos juntos para alcançar objetivos comuns"
-    },
-    {
-      icon: Users,
-      title: "Participação",
-      description: "Todos têm voz e podem contribuir ativamente"
-    },
-    {
-      icon: Heart,
-      title: "Responsabilidade Social",
-      description: "Comprometidos com o bem-estar da comunidade"
+      icon: UserPlus,
+      title: "Adesão Voluntária e Livre",
+      description: "Aberta a todos que desejam participar e assumir responsabilidades"
     },
     {
       icon: Scale,
-      title: "Democracia",
-      description: "Decisões tomadas de forma justa e participativa"
+      title: "Gestão Democrática",
+      description: "Decisões tomadas de forma justa e participativa por todos"
+    },
+    {
+      icon: Users,
+      title: "Participação Econômica",
+      description: "Membros contribuem e compartilham os resultados da cooperativa"
+    },
+    {
+      icon: Handshake,
+      title: "Autonomia e Independência",
+      description: "Organização autônoma controlada pelos próprios membros"
     },
     {
       icon: BookOpen,
-      title: "Educação",
-      description: "Aprendizado contínuo e compartilhamento de conhecimento"
+      title: "Educação e Formação",
+      description: "Aprendizado contínuo e desenvolvimento de todos os cooperados"
     },
     {
       icon: Sparkles,
-      title: "Colaboração",
-      description: "União de esforços para resultados melhores"
+      title: "Intercooperação",
+      description: "Colaboração entre cooperativas para fortalecer o movimento"
+    },
+    {
+      icon: Heart,
+      title: "Interesse pela Comunidade",
+      description: "Trabalho pelo desenvolvimento sustentável da nossa comunidade"
     }
   ];
 
