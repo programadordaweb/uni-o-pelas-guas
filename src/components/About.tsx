@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Heart, Users, Sparkles, BookOpen, Scale, Handshake, UserPlus } from "lucide-react";
+import { Heart, Users, Sparkles, BookOpen, Scale, Handshake, UserPlus, Shield, Award, Eye, AlertCircle } from "lucide-react";
 
 const About = () => {
   const principles = [
@@ -69,7 +69,7 @@ const About = () => {
         </Card>
 
         {/* Princípios do Cooperativismo */}
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto mb-16">
           <h3 className="text-3xl font-bold text-center text-foreground mb-12 animate-fade-in">
             Princípios que nos Guiam
           </h3>
@@ -90,6 +90,46 @@ const About = () => {
                   </h4>
                   <p className="text-muted-foreground">
                     {principle.description}
+                  </p>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Valores do Cooperativismo */}
+        <div className="max-w-6xl mx-auto">
+          <h3 className="text-3xl font-bold text-center text-foreground mb-12 animate-fade-in">
+            Valores que Praticamos
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { icon: Handshake, title: "Autoajuda", description: "Trabalhamos juntos para superar desafios" },
+              { icon: Shield, title: "Responsabilidade Pessoal", description: "Cada um assume seu papel com compromisso" },
+              { icon: Scale, title: "Democracia", description: "Todos têm voz e direitos iguais" },
+              { icon: Users, title: "Igualdade", description: "Tratamento justo e equitativo para todos" },
+              { icon: Heart, title: "Equidade", description: "Distribuição justa de benefícios e responsabilidades" },
+              { icon: Handshake, title: "Solidariedade", description: "Apoio mútuo e espírito de cooperação" },
+              { icon: Award, title: "Honestidade", description: "Transparência e integridade em nossas ações" },
+              { icon: Eye, title: "Transparência", description: "Abertura e clareza em todas as decisões" },
+              { icon: AlertCircle, title: "Responsabilidade Social", description: "Compromisso com a comunidade e sociedade" },
+              { icon: Heart, title: "Preocupação com os Outros", description: "Cuidado e atenção ao bem-estar de todos" }
+            ].map((value, index) => (
+              <Card 
+                key={value.title}
+                className="p-6 hover:shadow-medium transition-all duration-300 hover:-translate-y-1 group animate-fade-in"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <div className="flex flex-col items-center text-center">
+                  <div className="mb-4 p-3 bg-gradient-accent rounded-full group-hover:scale-110 transition-transform duration-300">
+                    <value.icon className="h-6 w-6 text-white" />
+                  </div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">
+                    {value.title}
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    {value.description}
                   </p>
                 </div>
               </Card>
