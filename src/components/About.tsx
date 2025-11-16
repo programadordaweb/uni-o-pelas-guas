@@ -5,38 +5,38 @@ const About = () => {
   const principles = [
     {
       icon: UserPlus,
-      title: "Adesão Voluntária e Livre",
-      description: "Aberta a todos que desejam participar e assumir responsabilidades"
+      title: "Adesão Livre e Voluntária",
+      description: "Aberta a todas as pessoas, sem discriminação"
     },
     {
       icon: Scale,
-      title: "Gestão Democrática",
-      description: "Decisões tomadas de forma justa e participativa por todos"
+      title: "Gestão Democrática pelos Membros",
+      description: "Cada cooperado tem voz e voto igual"
     },
     {
       icon: Users,
-      title: "Participação Econômica",
-      description: "Membros contribuem e compartilham os resultados da cooperativa"
+      title: "Participação Econômica dos Membros",
+      description: "Todos contribuem e controlam juntos os recursos da cooperativa"
     },
     {
       icon: Handshake,
       title: "Autonomia e Independência",
-      description: "Organização autônoma controlada pelos próprios membros"
+      description: "A cooperativa é uma organização autônoma, controlada pelos membros"
     },
     {
       icon: BookOpen,
-      title: "Educação e Formação",
-      description: "Aprendizado contínuo e desenvolvimento de todos os cooperados"
+      title: "Educação, Formação e Informação",
+      description: "Desenvolvimento dos cooperados e da comunidade por meio da educação"
     },
     {
       icon: Sparkles,
       title: "Intercooperação",
-      description: "Colaboração entre cooperativas para fortalecer o movimento"
+      description: "Cooperativas trabalham juntas para fortalecer o movimento"
     },
     {
       icon: Heart,
       title: "Interesse pela Comunidade",
-      description: "Trabalho pelo desenvolvimento sustentável da nossa comunidade"
+      description: "Atuação para o desenvolvimento sustentável da comunidade"
     }
   ];
 
@@ -103,18 +103,14 @@ const About = () => {
             Valores que Praticamos
           </h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: Handshake, title: "Autoajuda", description: "Trabalhamos juntos para superar desafios" },
-              { icon: Shield, title: "Responsabilidade Pessoal", description: "Cada um assume seu papel com compromisso" },
-              { icon: Scale, title: "Democracia", description: "Todos têm voz e direitos iguais" },
-              { icon: Users, title: "Igualdade", description: "Tratamento justo e equitativo para todos" },
+              { icon: Handshake, title: "Autoajuda", description: "Trabalhamos juntos para superar desafios e alcançar objetivos comuns" },
+              { icon: Shield, title: "Autorresponsabilidade", description: "Cada membro assume compromisso com a cooperativa e comunidade" },
+              { icon: Scale, title: "Democracia", description: "Todos têm voz e direitos iguais nas decisões" },
+              { icon: Users, title: "Igualdade", description: "Tratamento justo e equitativo para todos os cooperados" },
               { icon: Heart, title: "Equidade", description: "Distribuição justa de benefícios e responsabilidades" },
-              { icon: Handshake, title: "Solidariedade", description: "Apoio mútuo e espírito de cooperação" },
-              { icon: Award, title: "Honestidade", description: "Transparência e integridade em nossas ações" },
-              { icon: Eye, title: "Transparência", description: "Abertura e clareza em todas as decisões" },
-              { icon: AlertCircle, title: "Responsabilidade Social", description: "Compromisso com a comunidade e sociedade" },
-              { icon: Heart, title: "Preocupação com os Outros", description: "Cuidado e atenção ao bem-estar de todos" }
+              { icon: Sparkles, title: "Solidariedade", description: "Apoio mútuo e espírito de cooperação entre membros" }
             ].map((value, index) => (
               <Card 
                 key={value.title}
