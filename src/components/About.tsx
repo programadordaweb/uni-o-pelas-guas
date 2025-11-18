@@ -105,7 +105,7 @@ const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: Handshake, title: "Autoajuda", description: "Trabalhamos juntos para superar desafios e alcançar objetivos comuns" },
+              { icon: Handshake, title: "Ajuda Mútua", description: "Trabalhamos juntos para superar desafios e alcançar objetivos comuns" },
               { icon: Shield, title: "Autorresponsabilidade", description: "Cada membro assume compromisso com a cooperativa e comunidade" },
               { icon: Scale, title: "Democracia", description: "Todos têm voz e direitos iguais nas decisões" },
               { icon: Users, title: "Igualdade", description: "Tratamento justo e equitativo para todos os cooperados" },
